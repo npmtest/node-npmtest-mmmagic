@@ -1,4 +1,7 @@
-# test coverage for  [mmmagic (v0.4.5)](https://github.com/mscdex/mmmagic#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mmmagic.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mmmagic) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mmmagic.svg)](https://travis-ci.org/npmtest/node-npmtest-mmmagic)
+# npmtest-mmmagic
+
+#### basic test coverage for  [mmmagic (v0.4.5)](https://github.com/mscdex/mmmagic#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mmmagic.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mmmagic) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mmmagic.svg)](https://travis-ci.org/npmtest/node-npmtest-mmmagic)
+
 #### An async libmagic binding for node.js for detecting content types by data inspection
 
 [![NPM](https://nodei.co/npm/mmmagic.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/mmmagic)
@@ -83,7 +86,8 @@
         "install": "node-gyp rebuild",
         "test": "node test/test.js"
     },
-    "version": "0.4.5"
+    "version": "0.4.5",
+    "bin": {}
 }
 ```
 
